@@ -1,0 +1,1 @@
+python main_3dhp.py --batch_size 256 --frames 9  --stride 9 --dct_ratio 0.6 --nepoch 20

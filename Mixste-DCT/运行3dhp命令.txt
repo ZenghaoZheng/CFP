@@ -1,0 +1,10 @@
+# 运行3dhp    motionAGFormer版本
+python 3dhp_dct.py --frames 27 --stride 27 --batch_size 64 --nepoch 160 --dct_ratio 0.7 --gpu 1
+继续训练
+python 3dhp_dct.py --frames 27 --stride 27 --batch_size 64 --nepoch 120 --dct_ratio 0.7 --gpu 1 --previous_dir checkpoint/3dhp-dct0.7-normal
+python 3dhp.py --frames 27 --stride 27 --batch_size 64 --nepoch 120 --gpu 1
+
+# 运行mixste_3dhp         原版
+python mixste_3dhp.py --frames 27 --stride 1 --batch_size 64 --nepoch 160 --dct_ratio 0.7 --gpu 1
+进行测试
+python mixste_3dhp.py --frames 27 --stride 1 --batch_size 64 --nepoch 160 --dct_ratio 0.7 --gpu 1 --train 0

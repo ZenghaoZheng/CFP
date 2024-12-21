@@ -1,0 +1,787 @@
+[INFO] checkpoint/pretrain/best_epoch.pth.tr
+[INFO] Input arguments:
+[INFO]   learning_rate: 0.0005
+[INFO]   batch_size: 16
+[INFO]   weight_decay: 0.01
+[INFO]   lr_decay: 0.99
+[INFO]   epochs: 100
+[INFO]   train_2d: False
+[INFO]   model_name: MotionAGFormer
+[INFO]   n_layers: 16
+[INFO]   dim_in: 3
+[INFO]   dim_feat: 128
+[INFO]   dim_rep: 512
+[INFO]   dim_out: 3
+[INFO]   mlp_ratio: 4
+[INFO]   act_layer: gelu
+[INFO]   attn_drop: 0.0
+[INFO]   drop: 0.0
+[INFO]   drop_path: 0.0
+[INFO]   use_layer_scale: True
+[INFO]   layer_scale_init_value: 1e-05
+[INFO]   use_adaptive_fusion: True
+[INFO]   num_heads: 8
+[INFO]   qkv_bias: False
+[INFO]   qkv_scale: None
+[INFO]   hierarchical: False
+[INFO]   use_temporal_similarity: True
+[INFO]   neighbour_num: 2
+[INFO]   temporal_connection_len: 1
+[INFO]   use_tcn: False
+[INFO]   graph_only: False
+[INFO]   n_frames: 243
+[INFO]   dct_ratio: 0.6
+[INFO]   freq_prune_layer: [2, 5, 8, 11, 14]
+[INFO]   data_root: data/motion3d/
+[INFO]   data_root_2d: data/motion2d/
+[INFO]   subset_list: ['H36M-243']
+[INFO]   dt_file: h36m_sh_conf_cam_source_final.pkl
+[INFO]   num_joints: 17
+[INFO]   root_rel: True
+[INFO]   add_velocity: False
+[INFO]   lambda_3d_velocity: 20.0
+[INFO]   lambda_scale: 0.5
+[INFO]   lambda_lv: 0.0
+[INFO]   lambda_lg: 0.0
+[INFO]   lambda_a: 0.0
+[INFO]   lambda_av: 0.0
+[INFO]   lambda_freq: 0.5
+[INFO]   use_proj_as_2d: False
+[INFO]   flip: True
+[INFO]   name: MotionAGFormer-base
+[243, 243, 146, 146, 146, 88, 88, 88, 53, 53, 53, 32, 32, 32, 20, 20]
+[INFO] Number of parameters: 11,719,001
+[WARN] Checkpoint path is empty. Starting from the beginning
+[INFO] epoch 0
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 173.44180908300297 mm
+Acceleration error: 4.20421486824922 mm/s^2
+Protocol #2 Error (P-MPJPE): 105.80699387737468 mm
+----------
+best_epoch:0
+learning rate:  0.0005
+[INFO] epoch 1
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 116.39894388272403 mm
+Acceleration error: 4.3233545312403825 mm/s^2
+Protocol #2 Error (P-MPJPE): 83.59307208983799 mm
+----------
+best_epoch:1
+learning rate:  0.000495
+[INFO] epoch 2
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 91.24091251131026 mm
+Acceleration error: 4.705254787620013 mm/s^2
+Protocol #2 Error (P-MPJPE): 65.02537836592039 mm
+----------
+best_epoch:2
+learning rate:  0.00049005
+[INFO] epoch 3
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 71.78404115132508 mm
+Acceleration error: 5.068893018302801 mm/s^2
+Protocol #2 Error (P-MPJPE): 55.81607335861601 mm
+----------
+best_epoch:3
+learning rate:  0.0004851495
+[INFO] epoch 4
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 65.44084442965686 mm
+Acceleration error: 5.020283211291797 mm/s^2
+Protocol #2 Error (P-MPJPE): 51.69187873588151 mm
+----------
+best_epoch:4
+learning rate:  0.00048029800499999997
+[INFO] epoch 5
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 59.82832285921869 mm
+Acceleration error: 5.216150158248083 mm/s^2
+Protocol #2 Error (P-MPJPE): 48.253002237170676 mm
+----------
+best_epoch:5
+learning rate:  0.00047549502494999995
+[INFO] epoch 6
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 61.59599172735532 mm
+Acceleration error: 5.203816026894747 mm/s^2
+Protocol #2 Error (P-MPJPE): 47.49750522202165 mm
+----------
+learning rate:  0.00047074007470049995
+[INFO] epoch 7
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 54.506437040233486 mm
+Acceleration error: 5.172930696274888 mm/s^2
+Protocol #2 Error (P-MPJPE): 44.71167920939183 mm
+----------
+best_epoch:7
+learning rate:  0.00046603267395349497
+[INFO] epoch 8
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 54.608844265342924 mm
+Acceleration error: 5.073666072723814 mm/s^2
+Protocol #2 Error (P-MPJPE): 44.34788007233213 mm
+----------
+learning rate:  0.00046137234721396
+[INFO] epoch 9
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 54.363725763515205 mm
+Acceleration error: 5.035918826865511 mm/s^2
+Protocol #2 Error (P-MPJPE): 42.60088301373106 mm
+----------
+best_epoch:9
+learning rate:  0.0004567586237418204
+[INFO] epoch 10
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 51.62581735521061 mm
+Acceleration error: 5.007647795320781 mm/s^2
+Protocol #2 Error (P-MPJPE): 41.55761333015276 mm
+----------
+best_epoch:10
+learning rate:  0.00045219103750440215
+[INFO] epoch 11
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 50.13938192652629 mm
+Acceleration error: 4.897132113040259 mm/s^2
+Protocol #2 Error (P-MPJPE): 41.403127773096145 mm
+----------
+best_epoch:11
+learning rate:  0.00044766912712935813
+[INFO] epoch 12
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 50.15685869307726 mm
+Acceleration error: 4.882281339291406 mm/s^2
+Protocol #2 Error (P-MPJPE): 40.71192948576193 mm
+----------
+learning rate:  0.00044319243585806456
+[INFO] epoch 13
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 49.6436847434904 mm
+Acceleration error: 4.884445352890535 mm/s^2
+Protocol #2 Error (P-MPJPE): 40.17075978222957 mm
+----------
+best_epoch:13
+learning rate:  0.0004387605114994839
+[INFO] epoch 14
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 48.218901619436856 mm
+Acceleration error: 4.763020025871424 mm/s^2
+Protocol #2 Error (P-MPJPE): 39.215494022017744 mm
+----------
+best_epoch:14
+learning rate:  0.00043437290638448904
+[INFO] epoch 15
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 48.06733612464011 mm
+Acceleration error: 4.632148022104448 mm/s^2
+Protocol #2 Error (P-MPJPE): 39.11658509177961 mm
+----------
+best_epoch:15
+learning rate:  0.00043002917732064413
+[INFO] epoch 16
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 47.57705956797586 mm
+Acceleration error: 4.636092227333746 mm/s^2
+Protocol #2 Error (P-MPJPE): 38.4906303013799 mm
+----------
+best_epoch:16
+learning rate:  0.0004257288855474377
+[INFO] epoch 17
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 47.82819601611396 mm
+Acceleration error: 4.434468809139983 mm/s^2
+Protocol #2 Error (P-MPJPE): 39.031179768228284 mm
+----------
+learning rate:  0.0004214715966919633
+[INFO] epoch 18
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 48.975713009400735 mm
+Acceleration error: 4.407909286476913 mm/s^2
+Protocol #2 Error (P-MPJPE): 39.42256070887234 mm
+----------
+learning rate:  0.00041725688072504364
+[INFO] epoch 19
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 48.00706301472998 mm
+Acceleration error: 4.225190097064286 mm/s^2
+Protocol #2 Error (P-MPJPE): 38.98002442391226 mm
+----------
+learning rate:  0.0004130843119177932
+[INFO] epoch 20
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 45.90603554417298 mm
+Acceleration error: 4.334798839999062 mm/s^2
+Protocol #2 Error (P-MPJPE): 38.25241596750833 mm
+----------
+best_epoch:20
+learning rate:  0.0004089534687986153
+[INFO] epoch 21
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 44.442692832180185 mm
+Acceleration error: 4.296328578146605 mm/s^2
+Protocol #2 Error (P-MPJPE): 36.842480518640535 mm
+----------
+best_epoch:21
+learning rate:  0.00040486393411062917
+[INFO] epoch 22
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 45.47872243144568 mm
+Acceleration error: 4.105192553445197 mm/s^2
+Protocol #2 Error (P-MPJPE): 37.72022223254359 mm
+----------
+learning rate:  0.00040081529476952287
+[INFO] epoch 23
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 44.5210450085772 mm
+Acceleration error: 4.1615536422914365 mm/s^2
+Protocol #2 Error (P-MPJPE): 36.62301983334099 mm
+----------
+learning rate:  0.00039680714182182766
+[INFO] epoch 24
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 46.35865813559572 mm
+Acceleration error: 4.050085409287509 mm/s^2
+Protocol #2 Error (P-MPJPE): 37.5122298997208 mm
+----------
+learning rate:  0.0003928390704036094
+[INFO] epoch 25
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 45.41996137452745 mm
+Acceleration error: 4.042151190764482 mm/s^2
+Protocol #2 Error (P-MPJPE): 37.27061635090636 mm
+----------
+learning rate:  0.0003889106796995733
+[INFO] epoch 26
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 43.92604461823354 mm
+Acceleration error: 4.0890382434496795 mm/s^2
+Protocol #2 Error (P-MPJPE): 36.3903227981419 mm
+----------
+best_epoch:26
+learning rate:  0.0003850215729025775
+[INFO] epoch 27
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 45.27440980999561 mm
+Acceleration error: 3.927589486967844 mm/s^2
+Protocol #2 Error (P-MPJPE): 37.00126747037869 mm
+----------
+learning rate:  0.0003811713571735517
+[INFO] epoch 28
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 44.26513349458192 mm
+Acceleration error: 3.877810624531114 mm/s^2
+Protocol #2 Error (P-MPJPE): 36.45404389158416 mm
+----------
+learning rate:  0.0003773596436018162
+[INFO] epoch 29
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 43.52897925681013 mm
+Acceleration error: 3.7817172266629853 mm/s^2
+Protocol #2 Error (P-MPJPE): 35.883662231085395 mm
+----------
+best_epoch:29
+learning rate:  0.00037358604716579804
+[INFO] epoch 30
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 43.51457310365147 mm
+Acceleration error: 3.8302044282989645 mm/s^2
+Protocol #2 Error (P-MPJPE): 36.11493930363989 mm
+----------
+best_epoch:30
+learning rate:  0.00036985018669414004
+[INFO] epoch 31
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 44.608863406517834 mm
+Acceleration error: 3.7063373402746107 mm/s^2
+Protocol #2 Error (P-MPJPE): 36.43872958101885 mm
+----------
+learning rate:  0.00036615168482719864
+[INFO] epoch 32
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 43.487041347353305 mm
+Acceleration error: 3.660957648410648 mm/s^2
+Protocol #2 Error (P-MPJPE): 35.99173415502245 mm
+----------
+best_epoch:32
+learning rate:  0.00036249016797892665
+[INFO] epoch 33
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 42.86751919008902 mm
+Acceleration error: 3.6377813745248995 mm/s^2
+Protocol #2 Error (P-MPJPE): 35.05217881453313 mm
+----------
+best_epoch:33
+learning rate:  0.00035886526629913735
+[INFO] epoch 34
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 43.21381557521386 mm
+Acceleration error: 3.584906460005621 mm/s^2
+Protocol #2 Error (P-MPJPE): 34.93314742050764 mm
+----------
+learning rate:  0.000355276613636146
+[INFO] epoch 35
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 44.41646765610685 mm
+Acceleration error: 3.534210201745883 mm/s^2
+Protocol #2 Error (P-MPJPE): 36.03305120269037 mm
+----------
+learning rate:  0.0003517238474997845
+[INFO] epoch 36
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 42.43243169887105 mm
+Acceleration error: 3.43189313565225 mm/s^2
+Protocol #2 Error (P-MPJPE): 35.407314561958074 mm
+----------
+best_epoch:36
+learning rate:  0.00034820660902478665
+[INFO] epoch 37
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 42.326984002014775 mm
+Acceleration error: 3.3358396036287803 mm/s^2
+Protocol #2 Error (P-MPJPE): 35.10098811426319 mm
+----------
+best_epoch:37
+learning rate:  0.0003447245429345388
+[INFO] epoch 38
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 42.17059695266451 mm
+Acceleration error: 3.3119873023206017 mm/s^2
+Protocol #2 Error (P-MPJPE): 34.8212204844948 mm
+----------
+best_epoch:38
+learning rate:  0.0003412772975051934
+[INFO] epoch 39
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 41.66532903172797 mm
+Acceleration error: 3.300557224423587 mm/s^2
+Protocol #2 Error (P-MPJPE): 34.58355025758996 mm
+----------
+best_epoch:39
+learning rate:  0.0003378645245301415
+[INFO] epoch 40
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 41.584848123197325 mm
+Acceleration error: 3.235653313823735 mm/s^2
+Protocol #2 Error (P-MPJPE): 34.39016139802563 mm
+----------
+best_epoch:40
+learning rate:  0.00033448587928484007
+[INFO] epoch 41
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 42.1115404256416 mm
+Acceleration error: 3.23254049768285 mm/s^2
+Protocol #2 Error (P-MPJPE): 34.71411878554524 mm
+----------
+learning rate:  0.00033114102049199164
+[INFO] epoch 42
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 42.34827636471618 mm
+Acceleration error: 3.2054888058871516 mm/s^2
+Protocol #2 Error (P-MPJPE): 34.51777482735422 mm
+----------
+learning rate:  0.0003278296102870717
+[INFO] epoch 43
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 42.28845554469387 mm
+Acceleration error: 3.1166804157339674 mm/s^2
+Protocol #2 Error (P-MPJPE): 34.87631525954887 mm
+----------
+learning rate:  0.00032455131418420097
+[INFO] epoch 44
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 41.467506404347276 mm
+Acceleration error: 3.112546534577309 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.92434153881456 mm
+----------
+best_epoch:44
+learning rate:  0.00032130580104235894
+[INFO] epoch 45
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 41.286216215890455 mm
+Acceleration error: 3.1140731818999248 mm/s^2
+Protocol #2 Error (P-MPJPE): 34.19095560105127 mm
+----------
+best_epoch:45
+learning rate:  0.00031809274303193537
+[INFO] epoch 46
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 42.556920739110524 mm
+Acceleration error: 3.1006384864745695 mm/s^2
+Protocol #2 Error (P-MPJPE): 34.63029683736766 mm
+----------
+learning rate:  0.000314911815601616
+[INFO] epoch 47
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 41.99563355975488 mm
+Acceleration error: 3.051943917122428 mm/s^2
+Protocol #2 Error (P-MPJPE): 34.412845309493086 mm
+----------
+learning rate:  0.00031176269744559985
+[INFO] epoch 48
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.74481327078828 mm
+Acceleration error: 3.009085373134106 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.94097347788689 mm
+----------
+best_epoch:48
+learning rate:  0.00030864507047114386
+[INFO] epoch 49
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 41.10439950592666 mm
+Acceleration error: 3.0102501888455606 mm/s^2
+Protocol #2 Error (P-MPJPE): 34.06218295812554 mm
+----------
+learning rate:  0.00030555861976643245
+[INFO] epoch 50
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.74561947831786 mm
+Acceleration error: 2.97407053436956 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.96419856097542 mm
+----------
+learning rate:  0.0003025030335687681
+[INFO] epoch 51
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.29046762295719 mm
+Acceleration error: 2.958458223056117 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.87707508335846 mm
+----------
+best_epoch:51
+learning rate:  0.00029947800323308046
+[INFO] epoch 52
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.647307252788224 mm
+Acceleration error: 2.9616203629483198 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.9068453202299 mm
+----------
+learning rate:  0.00029648322320074966
+[INFO] epoch 53
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 41.73258064145618 mm
+Acceleration error: 2.953176547632176 mm/s^2
+Protocol #2 Error (P-MPJPE): 34.1671101103201 mm
+----------
+learning rate:  0.0002935183909687422
+[INFO] epoch 54
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.53472868592419 mm
+Acceleration error: 2.9529828196565617 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.6480565484918 mm
+----------
+learning rate:  0.00029058320705905476
+[INFO] epoch 55
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.68775895631323 mm
+Acceleration error: 2.890068185369322 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.911736501675634 mm
+----------
+learning rate:  0.00028767737498846423
+[INFO] epoch 56
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 42.449120504921275 mm
+Acceleration error: 2.8753026765243375 mm/s^2
+Protocol #2 Error (P-MPJPE): 34.31842417659843 mm
+----------
+learning rate:  0.0002848006012385796
+[INFO] epoch 57
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 41.03469235626937 mm
+Acceleration error: 2.922390766054879 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.44793400331181 mm
+----------
+learning rate:  0.0002819525952261938
+[INFO] epoch 58
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 41.12493667760967 mm
+Acceleration error: 2.871424631881496 mm/s^2
+Protocol #2 Error (P-MPJPE): 34.269204351061745 mm
+----------
+learning rate:  0.00027913306927393185
+[INFO] epoch 59
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.932544318740916 mm
+Acceleration error: 2.9192321782508994 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.96067167195136 mm
+----------
+learning rate:  0.0002763417385811925
+[INFO] epoch 60
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 41.4245417113991 mm
+Acceleration error: 2.88327714848917 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.94925565926057 mm
+----------
+learning rate:  0.0002735783211953806
+[INFO] epoch 61
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.3775463816313 mm
+Acceleration error: 2.867696356865856 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.61594875827552 mm
+----------
+learning rate:  0.0002708425379834268
+[INFO] epoch 62
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.16347613301101 mm
+Acceleration error: 2.881290012760847 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.39191595532002 mm
+----------
+best_epoch:62
+learning rate:  0.0002681341126035925
+[INFO] epoch 63
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.85477056979489 mm
+Acceleration error: 2.8404716361609474 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.95970935412327 mm
+----------
+learning rate:  0.0002654527714775566
+[INFO] epoch 64
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.412513889989796 mm
+Acceleration error: 2.8438273084183083 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.579959657557445 mm
+----------
+learning rate:  0.000262798243762781
+[INFO] epoch 65
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.32885060396291 mm
+Acceleration error: 2.8383015945520937 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.42766458829788 mm
+----------
+learning rate:  0.0002601702613251532
+[INFO] epoch 66
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 41.49875710233359 mm
+Acceleration error: 2.8312704214073605 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.82620559852917 mm
+----------
+learning rate:  0.0002575685587119017
+[INFO] epoch 67
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.45310004637687 mm
+Acceleration error: 2.7896811548226523 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.81235272433832 mm
+----------
+learning rate:  0.00025499287312478265
+[INFO] epoch 68
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.805696592059 mm
+Acceleration error: 2.761269572893853 mm/s^2
+Protocol #2 Error (P-MPJPE): 34.08200699702591 mm
+----------
+learning rate:  0.0002524429443935348
+[INFO] epoch 69
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.7304388564778 mm
+Acceleration error: 2.8093022557582117 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.6163315097097 mm
+----------
+learning rate:  0.00024991851494959947
+[INFO] epoch 70
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.5069943803097 mm
+Acceleration error: 2.770545485153165 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.26682330237843 mm
+----------
+learning rate:  0.0002474193298001035
+[INFO] epoch 71
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.79172646848881 mm
+Acceleration error: 2.6802129198523637 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.45973192191932 mm
+----------
+learning rate:  0.0002449451365021024
+[INFO] epoch 72
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.618309085665636 mm
+Acceleration error: 2.6329866475188974 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.49122483030321 mm
+----------
+learning rate:  0.0002424956851370814
+[INFO] epoch 73
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.841398681397116 mm
+Acceleration error: 2.5805778917246602 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.53973980532586 mm
+----------
+learning rate:  0.00024007072828571057
+[INFO] epoch 74
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.64309384332174 mm
+Acceleration error: 2.5581858855121924 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.544774313954704 mm
+----------
+learning rate:  0.00023767002100285347
+[INFO] epoch 75
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.80793633383926 mm
+Acceleration error: 2.5625383946160247 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.544997919639954 mm
+----------
+learning rate:  0.00023529332079282495
+[INFO] epoch 76
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 39.920758694543956 mm
+Acceleration error: 2.544304076193092 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.252768796366375 mm
+----------
+best_epoch:76
+learning rate:  0.0002329403875848967
+[INFO] epoch 77
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.99524145957538 mm
+Acceleration error: 2.5451060456788595 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.79422528047265 mm
+----------
+learning rate:  0.00023061098370904772
+[INFO] epoch 78
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.14686254428698 mm
+Acceleration error: 2.510616867596315 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.58598935675418 mm
+----------
+learning rate:  0.00022830487387195725
+[INFO] epoch 79
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.69440956665864 mm
+Acceleration error: 2.4644120040453372 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.596959056945515 mm
+----------
+learning rate:  0.00022602182513323767
+[INFO] epoch 80
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.02911038939611 mm
+Acceleration error: 2.4467875227797493 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.11403902384603 mm
+----------
+learning rate:  0.0002237616068819053
+[INFO] epoch 81
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 41.23547607213432 mm
+Acceleration error: 2.425317180200553 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.90556948306212 mm
+----------
+learning rate:  0.00022152399081308625
+[INFO] epoch 82
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.31720350475447 mm
+Acceleration error: 2.3907669722759906 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.48871972431957 mm
+----------
+learning rate:  0.00021930875090495538
+[INFO] epoch 83
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 39.994614370370606 mm
+Acceleration error: 2.37328045057819 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.241756394413656 mm
+----------
+learning rate:  0.00021711566339590582
+[INFO] epoch 84
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 41.20366398989841 mm
+Acceleration error: 2.4314570287858053 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.76904543804901 mm
+----------
+learning rate:  0.00021494450676194676
+[INFO] epoch 85
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.37593974168364 mm
+Acceleration error: 2.369720012201902 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.48935154776249 mm
+----------
+learning rate:  0.0002127950616943273
+[INFO] epoch 86
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.193771566509135 mm
+Acceleration error: 2.3410539795470573 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.24246570361215 mm
+----------
+learning rate:  0.00021066711107738402
+[INFO] epoch 87
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.1058750455379 mm
+Acceleration error: 2.3218542684315735 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.1150261324354 mm
+----------
+learning rate:  0.00020856043996661018
+[INFO] epoch 88
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.18979713812182 mm
+Acceleration error: 2.332497605684375 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.386176607950645 mm
+----------
+learning rate:  0.00020647483556694406
+[INFO] epoch 89
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.45666900919191 mm
+Acceleration error: 2.351564659235798 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.64843791376123 mm
+----------
+learning rate:  0.0002044100872112746
+[INFO] epoch 90
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.09356719268735 mm
+Acceleration error: 2.304162555871989 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.15049036851443 mm
+----------
+learning rate:  0.00020236598633916185
+[INFO] epoch 91
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.47453409738903 mm
+Acceleration error: 2.2925857539294876 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.39230340308923 mm
+----------
+learning rate:  0.00020034232647577022
+[INFO] epoch 92
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 39.92860815801531 mm
+Acceleration error: 2.285972984677782 mm/s^2
+Protocol #2 Error (P-MPJPE): 32.86540425291593 mm
+----------
+learning rate:  0.00019833890321101252
+[INFO] epoch 93
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.10827493513145 mm
+Acceleration error: 2.2401749644997078 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.25224441173741 mm
+----------
+learning rate:  0.0001963555141789024
+[INFO] epoch 94
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.52444685130672 mm
+Acceleration error: 2.277936361419982 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.35968242188944 mm
+----------
+learning rate:  0.00019439195903711337
+[INFO] epoch 95
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.82155798214496 mm
+Acceleration error: 2.279031294999469 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.462513823026136 mm
+----------
+learning rate:  0.00019244803944674224
+[INFO] epoch 96
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.535758080264756 mm
+Acceleration error: 2.2273632181586964 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.51163913559919 mm
+----------
+learning rate:  0.00019052355905227483
+[INFO] epoch 97
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 39.8383980821869 mm
+Acceleration error: 2.25476712093715 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.240403565840865 mm
+----------
+best_epoch:97
+learning rate:  0.00018861832346175208
+[INFO] epoch 98
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.719689399306795 mm
+Acceleration error: 2.2283804291113993 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.43820386041845 mm
+----------
+learning rate:  0.00018673214022713456
+[INFO] epoch 99
+[INFO] Evaluation
+Protocol #1 Error (MPJPE): 40.535307228769895 mm
+Acceleration error: 2.2484783194614435 mm/s^2
+Protocol #2 Error (P-MPJPE): 33.516800627546466 mm
+----------
+learning rate:  0.00018486481882486322
